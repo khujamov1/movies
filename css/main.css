@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+}
+
+.movies {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    max-width: 1400px;
+    margin: 200px auto;
+    padding-left: 0;
+    list-style: none;
+}
+.movie {
+    max-width: 300px;
+    width: 100%;
+    padding: 20px;
+    color: red;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+.actors {
+    font-weight: 800;
+    color: black;
+}
